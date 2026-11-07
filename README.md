@@ -2,6 +2,8 @@
 
 App de tareas del curso de Flutter. En esta sesión, `go_router` abre el detalle de una tarea y permite volver al listado. La guía del laboratorio sigue en [LEEME.md](LEEME.md). La procedencia de las capturas está en [EVIDENCIAS.md](EVIDENCIAS.md).
 
+**Video de la ejecución (15,2 s):** [sesion-04-ejecucion.mp4](docs/evidencias/sesion-04-ejecucion.mp4). GitHub no lo reproduce dentro del README; el enlace abre el archivo para verlo o descargarlo.
+
 ## Objetivo
 
 Mostrar un listado de tareas de ejemplo y, al tocar una tarjeta, la ficha de esa tarea. La ruta del detalle lleva el id (`/task/:id`). Al volver, el listado sigue en pantalla.
@@ -85,10 +87,16 @@ El listado **Mis tareas** otra vez, después de **Volver al listado**. Las cinco
 
 ![Listado Mis tareas después de volver del detalle](docs/evidencias/sesion-04-regreso.png)
 
-### Video
+### Video de la ejecución
 
-El archivo dura 9 s (9,13 s medidos). Empieza en **Mis tareas**, abre el detalle de **Probar el panel de tareas** y termina otra vez en el listado. Lo grabó `screenrecord` en el emulador.
+Enlace principal. `sesion-04-ejecucion.mp4` dura 15,2 s (15,17 s medidos). Es H.264, 1080×2400, grabado en el emulador Android remoto (Android 15, API 35) con Flutter 3.47.9. El recorrido es este: el listado **Mis tareas**, el detalle de **Probar el panel de tareas** (chip **Prioridad: Alta**, **Estado: pendiente**, acción contextual de tarea pendiente) y el regreso con **Volver al listado**.
+
+[Abrir o descargar sesion-04-ejecucion.mp4](docs/evidencias/sesion-04-ejecucion.mp4)
+
+GitHub no reproduce este MP4 dentro del README. El enlace abre el archivo para verlo o descargarlo.
+
+### Video anterior de 9 s
+
+Se conserva `sesion-04-listado-detalle-regreso.mp4` (9,13 s). Es la grabación anterior del mismo recorrido, con la barra de estado en las 5:33. El video de 15,2 s, con la barra en las 7:02, es el de la ejecución de arriba.
 
 [Abrir o descargar sesion-04-listado-detalle-regreso.mp4](docs/evidencias/sesion-04-listado-detalle-regreso.mp4)
-
-GitHub no reproduce este MP4 dentro del README. El enlace abre el archivo en el repositorio para verlo o descargarlo.
